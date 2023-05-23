@@ -41,6 +41,7 @@ All dependencies are optional! 😎
 * `as` *(optional)* - Run `main.asm` 🔫
 * `bf` *(optional)* - Run `main.bf` 🤯
 * `sh` *(optional)* - Run `main.sh` 🐢
+* `fbc` *(optional)* - Run `main.bas` 🔨
 * `bash` *(optional)* - Run `main.bash` 🐌
 * `batch` *(optional)* - Run `main.bat` 📝
 * `cmd` *(optional)* - Run `main.cmd` 👊
