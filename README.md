@@ -35,8 +35,10 @@ All dependencies are optional! 😎
 * `cc` *(optional)* - Run `main.c` 🇨
 * `c++` *(optional)* - Run `main.cpp` ➕
 * `go` *(optional)* - Run `main.go` 🏁
+* `mono` *(optional)* - Run `main.cs` #️⃣
 * `node` *(optional)* - Run `main.js` 🌐
 * `lua` *(optional)* - Run `main.lua` 🎲
+* `as` *(optional)* - Run `main.asm` 🔫
 * `bf` *(optional)* - Run `main.bf` 🤯
 * `sh` *(optional)* - Run `main.sh` 🐢
 * `bash` *(optional)* - Run `main.bash` 🐌
@@ -48,7 +50,9 @@ All dependencies are optional! 😎
 * Must output `"7\n"` and nothing else  
 * Must be a single file which can be run with `./main.*`
 * Musn't leave any files behind
+* Any temp files musn't start with `main` (future proofing)
 * Must have *daper* emoji in `README.md`
 * Must adhere to the `LICENSE`
+* Be as **jank** as possible
 
 

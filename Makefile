@@ -1,4 +1,7 @@
-all: c cpp go js lua py py2 sh bash bat cmd ps1 bf asm
+all: c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs
+
+chmod:
+	chmod +x main.*
 
 define compile
 	@echo "Compiling $(1)"
@@ -34,3 +37,7 @@ bf:
 	@$(call compile,main.bf)
 asm:
 	@$(call compile,main.asm)
+cs:
+	@$(call compile,main.cs)
+bas:
+	@$(call compile,main.bas)
