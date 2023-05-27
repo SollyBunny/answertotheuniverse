@@ -49,4 +49,5 @@ All dependencies are optional! 😎
 * `sbcl` *(optional)* - Run `main.lisp` 💋
 * `racket` *(optional)* - Run `main.rkt` 🎾
 * `clojure` *(optional)* - Run `main.clj` 🦬
+* `emacs` *(optional)* - Run `main.el` 🦬
 
