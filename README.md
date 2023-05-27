@@ -47,13 +47,4 @@ All dependencies are optional! 😎
 * `cmd` *(optional)* - Run `main.cmd` 👊
 * `powershell` *(optional)* - Run `main.ps1` 🪟
 
-## Contributing ⌨️
-* Must output `"7\n"` and nothing else  
-* Must be a single file which can be run with `./main.*`
-* Musn't leave any files behind
-* Any temp files musn't start with `main` (future proofing)
-* Must have *daper* emoji in `README.md`
-* Must adhere to the `LICENSE`
-* Be as **jank** as possible
-
 
