@@ -47,5 +47,6 @@ All dependencies are optional! 😎
 * `cmd` *(optional)* - Run `main.cmd` 👊
 * `powershell` *(optional)* - Run `main.ps1` 🪟
 * `sbcl` *(optional)* - Run `main.lisp` 💋
+* `racket` *(optional)* - Run `main.rkt` 🎾
 
 
