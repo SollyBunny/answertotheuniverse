@@ -48,5 +48,5 @@ All dependencies are optional! 😎
 * `powershell` *(optional)* - Run `main.ps1` 🪟
 * `sbcl` *(optional)* - Run `main.lisp` 💋
 * `racket` *(optional)* - Run `main.rkt` 🎾
-
+* `clojure` *(optional)* - Run `main.clj` 🦬
 
