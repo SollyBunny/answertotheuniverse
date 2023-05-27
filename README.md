@@ -46,5 +46,6 @@ All dependencies are optional! 😎
 * `batch` *(optional)* - Run `main.bat` 📝
 * `cmd` *(optional)* - Run `main.cmd` 👊
 * `powershell` *(optional)* - Run `main.ps1` 🪟
+* `sbcl` *(optional)* - Run `main.lisp` 💋
 
 
