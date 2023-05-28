@@ -1,4 +1,4 @@
-all: c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs
+all: c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs lisp rkt clj el
 
 chmod:
 	chmod +x main.*
@@ -41,3 +41,11 @@ cs:
 	@$(call compile,main.cs)
 bas:
 	@$(call compile,main.bas)
+lisp:
+	@$(call compile,main.lisp)
+rkt:
+	@$(call compile,main.rkt)
+clj:
+	@$(call compile,main.clj)
+el:
+	@$(call compile,main.el)

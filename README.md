@@ -46,14 +46,8 @@ All dependencies are optional! 😎
 * `batch` *(optional)* - Run `main.bat` 📝
 * `cmd` *(optional)* - Run `main.cmd` 👊
 * `powershell` *(optional)* - Run `main.ps1` 🪟
-
-## Contributing ⌨️
-* Must output `"7\n"` and nothing else  
-* Must be a single file which can be run with `./main.*`
-* Musn't leave any files behind
-* Any temp files musn't start with `main` (future proofing)
-* Must have *daper* emoji in `README.md`
-* Must adhere to the `LICENSE`
-* Be as **jank** as possible
-
+* `sbcl` *(optional)* - Run `main.lisp` 💋
+* `racket` *(optional)* - Run `main.rkt` 🎾
+* `clojure` *(optional)* - Run `main.clj` 🐘
+* `emacs` *(optional)* - Run `main.el` 🦬
 
