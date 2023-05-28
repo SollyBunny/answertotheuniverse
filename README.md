@@ -25,28 +25,35 @@ Examples:
 
 ## Usage 🏃
 Simply run one of the **many** executables `main.*`  
-Run them all at once with `make`
+Or run them all with `make`!  
+You can also run each category with `make <category>`!
 
 ## Dependencies 🎒
 All dependencies are optional! 😎
-* `make` *(optional)* - Compile and run all executables at once!
-* `python3` *(optional)* - Run `main.py` 🐉
-* `python2` *(optional)* - Run `main.py2` 🐍
+### Compiled
 * `cc` *(optional)* - Run `main.c` 🇨
 * `c++` *(optional)* - Run `main.cpp` ➕
+* `as` *(optional)* - Run `main.asm` 🔫
 * `go` *(optional)* - Run `main.go` 🏁
+* `javac` *(optional)* - Run `main.java` ☕
 * `mono` *(optional)* - Run `main.cs` #️⃣
+
+### Interpreted
 * `node` *(optional)* - Run `main.js` 🌐
 * `lua` *(optional)* - Run `main.lua` 🎲
-* `as` *(optional)* - Run `main.asm` 🔫
-* `bf` *(optional)* - Run `main.bf` 🤯
+* `python3` *(optional)* - Run `main.py` 🐉
+* `python2` *(optional)* - Run `main.py2` 🐍
+* `sbcl` *(optional)* - Run `main.lisp` 💋
+* `racket` *(optional)* - Run `main.rkt` 🎾
+* `clojure` *(optional)* - Run `main.clj` 🐘
+
+### Script
 * `sh` *(optional)* - Run `main.sh` 🐢
-* `fbc` *(optional)* - Run `main.bas` 🔨
 * `bash` *(optional)* - Run `main.bash` 🐌
 * `batch` *(optional)* - Run `main.bat` 📝
 * `cmd` *(optional)* - Run `main.cmd` 👊
 * `powershell` *(optional)* - Run `main.ps1` 🪟
-* `sbcl` *(optional)* - Run `main.lisp` 💋
-* `racket` *(optional)* - Run `main.rkt` 🎾
-* `clojure` *(optional)* - Run `main.clj` 🐘
+* `fbc` *(optional)* - Run `main.bas` 🔨
 * `emacs` *(optional)* - Run `main.el` 🦬
+### Stupid
+* `bf` *(optional)* - Run `main.bf` 🤯

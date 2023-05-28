@@ -1,4 +1,4 @@
-all: chmod c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs lisp rkt clj el
+all: chmod compiled interpreted script stupid
 
 chmod:
 	chmod +x main.*
@@ -10,6 +10,7 @@ define compile
 endef
 
 # Compiled
+compiled: c cpp asm go java cs
 c:
 	@$(call compile,main.c)
 cpp:
@@ -18,10 +19,13 @@ asm:
 	@$(call compile,main.asm)
 go:
 	@$(call compile,main.go)
+java:
+	@$(call compile,main.java)
 cs:
 	@$(call compile,main.cs)
 
 # Interpreted
+interpreted: js lua py py2 lisp rkt clj
 js:
 	@$(call compile,main.js)
 lua:
@@ -37,7 +41,8 @@ rkt:
 clj:
 	@$(call compile,main.clj)
 
-# Scripts
+# Script
+script: sh bash bat cmd ps1 bas el
 sh:
 	@$(call compile,main.sh)
 bash:
@@ -54,6 +59,7 @@ el:
 	@$(call compile,main.el)
 	
 # Stupid
+stupid: bf
 bf:
 	@$(call compile,main.bf)
 
