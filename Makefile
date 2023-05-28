@@ -1,4 +1,4 @@
-all: c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs lisp rkt clj el
+all: chmod c cpp go js lua py py2 sh bash bat cmd ps1 bf asm cs lisp rkt clj el
 
 chmod:
 	chmod +x main.*
@@ -9,12 +9,19 @@ define compile
 	@-"./$(1)"
 endef
 
+# Compiled
 c:
 	@$(call compile,main.c)
 cpp:
 	@$(call compile,main.cpp)
+asm:
+	@$(call compile,main.asm)
 go:
 	@$(call compile,main.go)
+cs:
+	@$(call compile,main.cs)
+
+# Interpreted
 js:
 	@$(call compile,main.js)
 lua:
@@ -23,6 +30,14 @@ py:
 	@$(call compile,main.py)
 py2:
 	@$(call compile,main.py2)
+lisp:
+	@$(call compile,main.lisp)
+rkt:
+	@$(call compile,main.rkt)
+clj:
+	@$(call compile,main.clj)
+
+# Scripts
 sh:
 	@$(call compile,main.sh)
 bash:
@@ -33,19 +48,15 @@ cmd:
 	@$(call compile,main.cmd)
 ps1:
 	@$(call compile,main.ps1)
-bf:
-	@$(call compile,main.bf)
-asm:
-	@$(call compile,main.asm)
-cs:
-	@$(call compile,main.cs)
 bas:
 	@$(call compile,main.bas)
-lisp:
-	@$(call compile,main.lisp)
-rkt:
-	@$(call compile,main.rkt)
-clj:
-	@$(call compile,main.clj)
 el:
 	@$(call compile,main.el)
+	
+# Stupid
+bf:
+	@$(call compile,main.bf)
+
+
+
+
