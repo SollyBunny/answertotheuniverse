@@ -50,4 +50,3 @@ All dependencies are optional! 😎
 * `racket` *(optional)* - Run `main.rkt` 🎾
 * `clojure` *(optional)* - Run `main.clj` 🐘
 * `emacs` *(optional)* - Run `main.el` 🦬
-
