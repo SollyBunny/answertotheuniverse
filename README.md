@@ -43,6 +43,7 @@ All dependencies are optional! 😎
 * `lua` *(optional)* - Run `main.lua` 🎲
 * `python3` *(optional)* - Run `main.py` 🐉
 * `python2` *(optional)* - Run `main.py2` 🐍
+* `julia` *(optional)* - Run `main.jl` 📊
 * `sbcl` *(optional)* - Run `main.lisp` 💋
 * `racket` *(optional)* - Run `main.rkt` 🎾
 * `clojure` *(optional)* - Run `main.clj` 🐘
@@ -55,5 +56,6 @@ All dependencies are optional! 😎
 * `powershell` *(optional)* - Run `main.ps1` 🪟
 * `fbc` *(optional)* - Run `main.bas` 🔨
 * `emacs` *(optional)* - Run `main.el` 🦬
+
 ### Stupid
 * `bf` *(optional)* - Run `main.bf` 🤯

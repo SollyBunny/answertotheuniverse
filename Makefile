@@ -25,7 +25,7 @@ cs:
 	@$(call compile,main.cs)
 
 # Interpreted
-interpreted: js lua py py2 lisp rkt clj
+interpreted: js lua py py2 jl lisp rkt clj
 js:
 	@$(call compile,main.js)
 lua:
@@ -34,6 +34,8 @@ py:
 	@$(call compile,main.py)
 py2:
 	@$(call compile,main.py2)
+jl:
+	@$(call compile,main.jl)
 lisp:
 	@$(call compile,main.lisp)
 rkt:
