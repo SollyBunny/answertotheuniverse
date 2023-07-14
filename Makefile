@@ -10,7 +10,7 @@ define compile
 endef
 
 # Compiled
-compiled: c cpp asm go java cs
+compiled: c cpp asm go java cs hs
 c:
 	@$(call compile,main.c)
 cpp:
@@ -23,6 +23,8 @@ java:
 	@$(call compile,main.java)
 cs:
 	@$(call compile,main.cs)
+hs:
+	@$(call compile,main.hs)
 
 # Interpreted
 interpreted: js lua py py2 jl lisp rkt clj

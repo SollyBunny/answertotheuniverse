@@ -37,6 +37,7 @@ All dependencies are optional! 😎
 * `go` *(optional)* - Run `main.go` 🏁
 * `javac` *(optional)* - Run `main.java` ☕
 * `mono` *(optional)* - Run `main.cs` #️⃣
+* `ghc` *(optional)* - Run `main.hs` 🍛
 
 ### Interpreted
 * `node` *(optional)* - Run `main.js` 🌐
