@@ -3,9 +3,9 @@
 [Answer to the universe](https://github.com/sollybunny/answertotheuniverse) is a **blazingly fast** 🚀 **hyper intelligent** 🧠 **math solver** 🧮.
 * **Blazingly fast** 🚀
 * **Hyper intelligent** 🧠 
-* **Implemented in many languages** (+10 langs)
+* **Implemented in many languages** (>20 langs)
 * **Low memory usage** 🤔
-* **Statickly linked** 🔗
+* **Statically linked** 🔗
 * **Portable executables** 🏃
 * **Solves all problems** (∞ / ∞ = 100%)
 
