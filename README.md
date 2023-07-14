@@ -3,9 +3,9 @@
 [Answer to the universe](https://github.com/sollybunny/answertotheuniverse) is a **blazingly fast** 🚀 **hyper intelligent** 🧠 **math solver** 🧮.
 * **Blazingly fast** 🚀
 * **Hyper intelligent** 🧠 
-* **Implemented in many languages** (+10 langs)
+* **Implemented in many languages** (>20 langs)
 * **Low memory usage** 🤔
-* **Statickly linked** 🔗
+* **Statically linked** 🔗
 * **Portable executables** 🏃
 * **Solves all problems** (∞ / ∞ = 100%)
 
@@ -37,6 +37,7 @@ All dependencies are optional! 😎
 * `go` *(optional)* - Run `main.go` 🏁
 * `javac` *(optional)* - Run `main.java` ☕
 * `mono` *(optional)* - Run `main.cs` #️⃣
+* `ghc` *(optional)* - Run `main.hs` 🍛
 
 ### Interpreted
 * `node` *(optional)* - Run `main.js` 🌐
