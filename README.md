@@ -63,5 +63,5 @@ All dependencies are optional! 😎
 
 ## Why
 There is a popular math meme where you continuously attempt to solve 16 minus 9 without getting anywhere near the solution of 7.  
-![OG video https://youtu.be/xhS6G-apQno](https://youtu.be/xhS6G-apQno)
+![OG video https://youtu.be/xhS6G-apQno](https://youtu.be/xhS6G-apQno).  
 This is another stupid continuation of this.
