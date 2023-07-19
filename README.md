@@ -60,3 +60,8 @@ All dependencies are optional! 😎
 
 ### Stupid
 * `bf` *(optional)* - Run `main.bf` 🤯
+
+## Why
+There is a popular math meme where you continuously attempt to solve 16 minus 9 without getting anywhere near the solution of 7.  
+![OG video https://youtu.be/xhS6G-apQno](https://youtu.be/xhS6G-apQno)
+This is another stupid continuation of this.
